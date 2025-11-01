@@ -10,3 +10,22 @@ O objetivo é ajudar a sorveteria *Gelato Mágico* a otimizar sua produção, ev
 4. Criação de um pipeline para reprodutibilidade e implementação em cloud.
 
 ## 📂 Estrutura do Repositório
+
+├── inputs/
+│ └── dados.txt
+├── notebook.ipynb
+└── README.md
+
+
+## 💡 Insights
+- A relação entre temperatura e vendas é fortemente positiva.  
+- Pequenas variações na temperatura podem gerar grandes diferenças de demanda.  
+- Modelos simples, como regressão linear, já apresentam bom desempenho para esse cenário.  
+
+## 🚀 Possibilidades Futuras
+- Incluir variáveis adicionais (dia da semana, feriados, tipo de sabor).  
+- Integrar o modelo a um dashboard para previsões em tempo real.  
+- Automatizar o pipeline com CI/CD em um ambiente de nuvem.
+
+---
+*"Prever é preparar-se. E preparar-se é lucrar."*
